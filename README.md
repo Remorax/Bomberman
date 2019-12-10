@@ -39,9 +39,13 @@ A bash-shell game built using Python. Have fun!
 16. Once you successfully collect the powerup, it'll last for a predefined number of moves before the effects wear out.
 
 17. There are 4 types of powerups:
+
 	• Speed powerup: Its' symbol is '<<' and the counter. Makes you twice as fast as earlier, but you can't skip through walls. You can only move two cells in one direction if both the cells 	are empty. If the second one is empty, you move by only one cell. It costs 20 points, and lasts for 8 frames before the effects wear out.
+	
 	• Wallpass powerup: Its' symbol is 'WALL' and the counter. Allows you to pass through walls. If the speed powerup is currently equipped, you can pass through the wall and skip to the other side without going inside it. Otherwise you can go inside the wall. Deploying a bomb while inside the wall will destroy the wall permanently, but no points will be awarded. It costs 30 points, and lasts for 5 frames before the effects wear out.
+	
 	• Explosion powerup: Its' symbol is 'BOOM' and the counter. Your bomb has twice the blast radius in each direction. Again you can't destroy a wall and so the explosion won't spread beyond it. It costs 40 points, and this bomb can be used twice before the effects wear out. 
+	
 	• Wallpass powerup: Its' symbol is 'IMMO' and the counter. Bomberman becomes immortal, so can take 3 kills without any damage before the effects wear out. It costs 60 points.
 
 18. Trying to deploy a powerup with less than 20 points is not a valid move.	
@@ -51,5 +55,7 @@ A bash-shell game built using Python. Have fun!
 20. Running the game:
 
 	• Go to the '20161188' directory.
+	
 	• Run 'pip3 install -r requirements.txt'
+	
 	• Then 'python3 game.py'
