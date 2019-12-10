@@ -1,3 +1,7 @@
+# README
+
+A bash-shell game built using Python. Have fun!
+
 1. The game runs frame-by-frame.
 
 2. The board is a square with walls along the borders and in certain positions of the board. There are also 10 bricks, which randomly spawn on the board.
